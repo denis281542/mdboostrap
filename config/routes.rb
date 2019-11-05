@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'pins#index'
   resources :pins
-  get 'welcome/index'
- 
-  root 'welcome#index'
+  
 end
